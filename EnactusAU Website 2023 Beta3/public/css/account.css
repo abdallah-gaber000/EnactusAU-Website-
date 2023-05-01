@@ -1,0 +1,50 @@
+@font-face {
+    font-family: CenturyGothicB;
+    src: url(../Fonts/GOTHICB.TTF);
+  }
+  @font-face {
+    font-family: CenturyGothic;
+    src: url(../Fonts/GOTHIC.TTF);
+  }
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: rgb(17, 17, 17);color: #ffffff;
+  }
+  .active {background-color: #fec223;}
+  /* .userImage{position: relative;} */
+  .accContainer{display: grid;grid-template-columns: 1fr;}
+  .accHead{margin: 4rem 0 10rem;}
+  .userImage .imgUpload{
+    background-color:#FEC223;
+    color:rgb(17, 17, 17);
+    width: 23px;height: 23px;
+    border-radius: 50%;
+    bottom: 5px;left: 5px;
+    cursor: pointer;
+  }
+  
+  .userName h3{font-size: 1.5rem;}
+  .userName h4{font-size: 1.2rem;}
+  
+  .accInfo>div{margin:0 2rem 8rem; }
+  .cirSq{position: relative;width: 330px;}
+  .infoIcon{
+    padding: 20px;
+    background-color: #fec223;
+    width: 175px;height:175px; border-radius: 50% 50% 10% 10%;
+    position: absolute;
+    top: -100px;
+    left:25%;
+  }
+  .infoIcon .secondCir{padding: 20px;background-color:rgb(17, 17, 17);border-radius: 50%;}
+  .infoIcon .thirdCir{background-color: #fec223;border-radius: 50%;padding: 20px;}
+  
+  .infoText{background-color:#fec223;width:100%;min-height: 410px; padding: 5rem 1rem 1.5rem;border-radius: 85px;}
+  .infoText>div{background-color:rgb(17, 17, 17);border-radius: 85px;padding: 2.5rem 1.5rem;height: 360px;}
+  .infoText>div>h3{font-size: 1.5rem;font-weight: 600;letter-spacing: -1px;line-height: 1.4;}
+  footer{background-color: black;}
+  /* footer p{} */

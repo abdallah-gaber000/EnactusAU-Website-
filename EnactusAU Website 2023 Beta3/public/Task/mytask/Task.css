@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+main {
+  background-image: url("WhatsApp Image 2023-01-02 at 10.56.02 PM (copy).jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.head {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #1c1c1c;
+  border: 1px solid black;
+}
+img {
+  /* width: 30%; */
+  border-radius: 100%;
+  margin-right: 50px;
+}
+.head svg {
+  margin-left: 50px;
+}
+.con h1 {
+  color: #fff;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.con .first {
+  width: 75%;
+  height: 60px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: #1c1c1c;
+  border: 1px solid black;
+}
+.con .first h3 {
+  margin-top: 15px;
+}
+.con .second {
+  width: 75%;
+  height: 60px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: #1c1c1c;
+  border: 1px solid black;
+}
+.con .second h3 {
+  margin-top: 15px;
+}
+.button {
+  border: 1px solid red;
+  /* margin: auto; */
+  text-align: center;
+  /* width: 250px; */
+  height: 63px;
+  color: #fff;
+  border-style: none;
+  border-radius: 30px;
+  /* background-color: #fec223; */
+  margin-top: 20px;
+  /* margin-left: 50px; */
+  font-size: 20px;
+}
+button {
+  margin-top: 5px;
+  width: 250px;
+  background-color: #fec223;
+  height: 63px;
+  color: #fff;
+  border-style: none;
+  border-radius: 30px;
+  font-size: 20px;
+}
+/* .con .Upload {
+  margin: auto;
+}
+.con .Back {
+  margin-left: 50px;
+} */

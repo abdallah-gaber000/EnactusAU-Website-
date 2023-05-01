@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Sign in</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="./Images/icon.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/sign-in.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed" id="navigation-bar">
+        <a class="navbar-brand ml-3" href="https://enactusau.org">
+            <img src="Images/enactus-logo.png" width="120px">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mr-3" style="background-color: #E0E0E0; border-radius: 30px;">
+                <li class="nav-item mx-2 my-1 px-2" style="border-radius: 30px;">
+                    <a class="nav-link" href="https://enactusau.org" style="color: black; font-weight: 600;">Home<span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item mx-2 my-1 px-2" style="border-radius: 30px;">
+                    <a class="nav-link" href="committees.html" style="color: black; font-weight: 600;">Committees</a>
+                </li>
+                <li class="nav-item mx-2 my-1 px-2" style="border-radius: 30px;">
+                    <a class="nav-link" href="project.html" style="color: black; font-weight: 600;">Projects</a>
+                </li>
+                <li class="nav-item mx-2 my-1 px-2" style="border-radius: 30px;">
+                    <a class="nav-link" href="Labels page.html" style="color: black; font-weight: 600;">Tasks</a>
+                </li>
+                <li class="nav-item mx-2 my-1 px-2 active" style="border-radius: 30px;">
+                    <a class="nav-link" href="sign-in.html" id="sign_in_out" style="color: black; font-weight: 600;">Sign in</a>
+                </li>
+                <!-- <li class="nav-item mx-2 my-1 px-2" style="border-radius: 30px;">
+                    <a class="nav-link" href="join-us.html" style="color: black; font-weight: 600;">Join Us</a>
+                  </li> -->
+                <!-- <li class="nav-item mx-2 my-1 px-2" style="border-radius: 30px;">
+                    <a class="nav-link" href="sign-up.html" style="color: black; font-weight: 600;">Sign up</a>
+                </li> -->
+                <!-- <li class="nav-item mx-2 my-1 px-2" style="border-radius: 30px;">
+                <a class="nav-link" href="join-us.html" style="color: black; font-weight: 600;">Join Us</a>
+            </li> -->
+                <!-- <li class="nav-item dropdown mx-2 my-1 px-2" style="background-color: #FEC223; border-radius: 30px;">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item mx-2 my-1 px-2" style="background-color: #FEC223; border-radius: 30px;">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li> -->
+            </ul>
+        </div>
+    </nav>
+
+    <div class="sign-in">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-11 mx-auto bg-dark p-3" style="border-radius: 5px;">
+                    <form class="main">
+                        <div>
+                            <label for="email">Email address</label>
+                            <input type="email" id="email" aria-describedby="emailHelp"
+                                placeholder="">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="pass-and-visibility">
+                            <label for="password">Password</label>
+                           
+                            <input type="password"  id="password" placeholder="">
+                            <i id="visibilitybtn"> <span > <img id="icon" src="./Images/img visibility/visibility_off_black_24dp.svg" alt="" style="margin-top: 8px;width: 30px;"> </span> </i>
+                        </div>
+                        
+                            <small id="invalid" class="form-text" style="color: red;"></small>
+                            <a href="./reset-pass.html"  style="background-color: transparent;color: white;font-size: 15px;">Forgot Password ?</a><br><br>
+             
+                        <button type="button" id="sign-in-button" class="btn btn-primary">Continue</button><br><br>
+                        <p>Don't have an account ?
+                            <a href="sign-up.html"  style="background-color: transparent;color: aqua;font-size: 15px;"> Signup </a> 
+                        </p>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="profile">
+        
+    </div>
+
+  <!--GO TO UP BUTTON-->
+  <!-- <div id="to-top" title="back to top">
+    <i class="fa fa-arrow-up" aria-hidden="true"></i>
+  </div> -->
+
+    <div class="footer" style="background-color: black;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-9 mx-auto my-5">
+                    <h2 class="text-center">About Us</h2>
+
+                    <p class="text-center">Enactus in Assiut is a branch of Enactus in Egypt which operates in Assiut
+                        University.
+                        This website represents Enactus in Assiut only. This website does not by any means
+                        represent or is endorsed by the Enactus in Egypt Head Office.</p>
+
+                </div>
+                <div class="col-lg-3 col-md-6 mx-auto my-5 text-center">
+                    <img src="./Images/enactus-logo.png" width="300">
+                </div>
+                <div class="col-lg-3 col-md-6 mx-auto my-5">
+                    <h2 class="text-center">Contact us</h2>
+                    <div class="mt-3 mx-auto text-center">
+                        <a class="mx-auto" target="_blank" href="https://www.facebook.com/EnactusAssuit10/"
+                            style="text-decoration: none;">
+                            <img src="./Images/facebook.svg" alt="facebook" style="width:42px;height:42px;">
+                        </a>
+                        <a class="mx-auto" target="_blank" href="https://twitter.com/ENACTUS_AU2020"
+                            style="text-decoration: none;">
+                            <img src="./Images/twitter.svg" alt="twitter" style="width:42px;height:42px;">
+                        </a>
+                        <a class="mx-auto" target="_blank" href="https://www.instagram.com/enactusau/"
+                            style="text-decoration: none;">
+                            <img src="./Images/instagram.svg" alt="instagram" style="width:42px;height:42px;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="text-center">
+                        Copyright &copy; 2020-2021 Enactus AU IT Team All rights reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.0.0.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="./Javascript/jquery.counterup.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-storage.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-analytics.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/account.css">
+
+    <script src="./Javascript/sign-in.js"></script>
+
+
+</body>
+
+</html>

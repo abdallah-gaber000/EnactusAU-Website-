@@ -1,0 +1,62 @@
+@font-face {
+    font-family: CenturyGothicB;
+    src: url(../Fonts/GOTHICB.TTF);
+  }
+  @font-face {
+    font-family: CenturyGothic;
+    src: url(../Fonts/GOTHIC.TTF);
+  } 
+body
+{
+    background-color: rgb(17, 17, 17);
+    text-align: center !important;
+    color: #ffffff;
+}
+#navigation-bar
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+.fixed{
+    position: fixed !important;
+    top: 0 !important;
+}
+.active
+{
+    background-color: #FEC223;
+}
+@media(max-width: 768px){
+    .navbar-collapse{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .container iframe{
+        width: 500px;
+    }
+}
+@media(max-width: 500px){
+    .navbar-collapse{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .container iframe{
+        width: 300px;
+    }
+}
+#to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    padding: 10px 15px;
+    background:#FEC223;
+    font-weight: bold;
+    color: #000;
+    size: 20px;
+    display: none;
+    z-index: 100000;
+    border-radius: 25px;
+}

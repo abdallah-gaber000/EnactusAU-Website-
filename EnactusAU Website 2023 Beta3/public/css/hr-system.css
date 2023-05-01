@@ -1,0 +1,31 @@
+@font-face {
+    font-family: CenturyGothicB;
+    src: url(../Fonts/GOTHICB.TTF);
+  }
+  @font-face {
+    font-family: CenturyGothic;
+    src: url(../Fonts/GOTHIC.TTF);
+  } 
+body
+{
+    background-color: rgb(17, 17, 17);
+    color: #ffffff;
+}
+
+.sign-in
+{
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+#sign-in-button
+{
+    background-color: #FEC223;
+    color: black;
+    font-weight: 500;
+}
+#save-button
+{
+  background-color: #FEC223;
+    color: black;
+    font-weight: 600;
+}

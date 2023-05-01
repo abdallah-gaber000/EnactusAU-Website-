@@ -1,0 +1,230 @@
+@font-face {
+  font-family: CenturyGothicB;
+  src: url(../Fonts/GOTHICB.TTF);
+}
+@font-face {
+  font-family: CenturyGothic;
+  src: url(../Fonts/GOTHIC.TTF);
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgb(17, 17, 17);
+  text-align: center !important;
+}
+#joinUs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #0696d7;
+  padding: 10px 0px;
+  z-index: 99999;
+  width: 100%;
+  position: absolute;
+}
+#joinUs p {
+  font-size: 18px;
+}
+#joinUs a {
+  color: #fec223;
+  font-weight: bold;
+}
+#joinUs #demo {
+  justify-content: center;
+  align-items: center;
+}
+#navigation-bar {
+  margin-top: 60px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+.fixed {
+  position: fixed !important;
+  top: 0 !important;
+}
+.active {
+  background-color: #fec223;
+}
+
+.join-us {
+  background-image: url("../Images/home/58.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.footer-text {
+  font-family: CenturyGothic;
+}
+@media only screen and (max-width: 992px) {
+  .join-us {
+    background-image: url("../Images/home/58.jpg");
+    max-width: 100%;
+    height: 100vh;
+    padding-bottom: 0px;
+    padding-left: 0px;
+  }
+  .footer-text {
+    font-size: 18px;
+    font-family: CenturyGothic;
+  }
+}
+.join-us button {
+  background-color: #fec223;
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+@media only screen and (max-width: 992px) {
+  .join-us button {
+    font-size: 20px;
+  }
+  #joinUs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #0696d7;
+    padding: 15px 0px;
+    z-index: 99999;
+    width: 100%;
+    position: absolute;
+  }
+  #joinUs p {
+    font-size: 20px;
+  }
+}
+.row {
+  position: relative;
+}
+.border-circle {
+  background-color: transparent;
+  border: 4px solid #fec223;
+  padding: 10px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 200px;
+  left: 250px;
+  bottom: 30px;
+}
+.circle {
+  background-color: #fec223;
+  padding: 10px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 200px;
+  left: 220px;
+  bottom: 10px;
+}
+@media only screen and (max-width: 992px) {
+  .circle,
+  .border-circle {
+    visibility: hidden;
+  }
+}
+/*Who are we*/
+.who-are-we {
+  background-color: rgb(17, 17, 17);
+  text-align: center;
+  padding: 100px 0px;
+}
+@media only screen and (max-width: 992px) {
+  .who-are-we {
+    padding: 50px 0px;
+  }
+}
+.who-are-we img {
+  width: 100%;
+}
+.who-are-we p {
+  font-family: CenturyGothic;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: 2;
+}
+
+@media only screen and (max-width: 992px) {
+  p {
+    font-size: 10px;
+    line-height: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-collapse {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+.col-xl-6 {
+  text-align: center;
+}
+.who-are-we h2 {
+  border: 2px solid #fec223;
+  border-radius: 20px;
+  color: white;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+.bordered {
+  border: 2px solid #fec223;
+  border-radius: 40px;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: inline-block;
+  font-family: CenturyGothicB;
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 10px;
+}
+h1,
+h3 {
+  color: #ffffff;
+  font-family: CenturyGothicB;
+  margin-top: 10px !important;
+}
+h2 {
+  color: #ffffff;
+  font-weight: normal;
+  font-style: normal;
+  font-family: CenturyGothicB;
+}
+p {
+  color: #ffffff;
+  font-family: CenturyGothic;
+}
+.border {
+  border: 3px solid #fec223;
+  border-width: 0 1px;
+}
+h3 {
+  font-size: 25px !important;
+  margin-top: 10px;
+}
+.what-we-do .container img {
+  height: 200px;
+}
+/*GO TO UP BUTTON*/
+#to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+  padding: 10px 15px;
+  background: #fec223;
+  font-weight: bold;
+  color: #000;
+  size: 20px;
+  display: none;
+  z-index: 100000;
+  border-radius: 25px;
+}

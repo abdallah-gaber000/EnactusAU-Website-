@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Test</title>
+</head>
+
+<script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-analytics.js"></script>
+
+<script type="module">
+    var firebaseConfig = {
+        apiKey: "AIzaSyB_usShzAgFFsqXN_wVaZtrd-Pp3IVTqwg",
+        authDomain: "enactus-au.firebaseapp.com",
+        databaseURL: "https://enactus-au.firebaseio.com",
+        projectId: "enactus-au",
+        storageBucket: "enactus-au.appspot.com",
+        messagingSenderId: "734824269799",
+        appId: "1:734824269799:web:64656fe874e44ad72d5f42",
+        measurementId: "G-7HV22V6ZR3"
+    };
+    import { initializeApp, credential as _credential } from "../node_modules/firebase-admin/";
+
+    import serviceAccount from "../enactus-au-firebase-adminsdk-tw11u-cf595ae8d2.json";
+
+initializeApp({
+  credential: _credential.cert(serviceAccount),
+  databaseURL: "https://enactus-au.firebaseio.com"
+});
+
+    // // DONE
+    // // arr of committees names
+    // const committeesList = ["Board","HR","IT","PR & Marketing","Photographers & Video Editing","Presentation","Project","Social media & Design"]
+
+    // // DONE
+    // // prints committees (array) (NOTE: CANNOT RETURN/STORE VAL)
+    //     firebase.database().ref().on('value', snap => {
+    //         console.log(Object.keys(snap.val()).join())
+    //     })
+
+    // // DONE
+    // // prints IT committee members' names
+    // firebase.database().ref().child("IT").on("value", snap => {
+    // for (x in snap.val()) {
+    //     console.log(snap.val()[x].username)
+    // }
+    // })
+
+    // // DONE
+    // // prints all committees' members' names
+    // const committeesList = ["Board","HR","IT","PR & Marketing","Photographers & Video Editing","Presentation","Project","Social media & Design"]
+    // for(committee of committeesList) {
+    //     firebase.database().ref().child(committee).on("value", snap => {
+    //         for(x in snap.val()) {
+    //             console.log(snap.val()[x].username)
+    //         }
+    //     })
+    // }
+
+
+    // // DONE
+    // // prints num of members signed in the realtime DB
+    // const committeesList = ["Board","HR","IT","PR & Marketing","Photographers & Video Editing","Presentation","Project","Social media & Design"]
+    // function getCount() {
+    //     var counter = 0;
+    //     for(committee of committeesList) {
+    //         firebase.database().ref().child(committee).on("value", snap => {
+    //             for(x in snap.val()) {
+    //                 counter++
+    //             }
+    //             console.log(counter)
+    //         })
+    //     }
+    // }
+
+
+    // IN PROGRESS
+    // DELETES ACCOUNT FROM FIREBASE AUTH AND REALTIME DATABASE
+        // 1. get id from email
+        // function getID(email) {
+        //     firebase.auth().getUserByEmail(email)
+        //     .then( (user) => {
+        //         console.log(user.id);
+        //     })
+        // }
+        // getID('gannamohamed7776@gmail.com');
+
+
+
+//     // TRASH
+//    const committeesList = getKeys(firebase.database().ref())
+//    function getKeys(db) {
+//     firebase.database().ref().on('value', snap => {
+//     return Object.keys(snap.val())
+//     })
+//    }
+
+//   console.log(committeesList)
+
+
+
+
+</script>
+</html>

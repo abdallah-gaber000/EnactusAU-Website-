@@ -1,0 +1,167 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#committeesimage {
+  width: 100%;
+}
+#navigation-bar {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+.fixed {
+  position: fixed !important;
+  top: 0 !important;
+}
+.active {
+  background-color: #fec223;
+}
+body {
+  background-color: #111111;
+  text-align: center;
+}
+h1,
+h3 {
+  color: #ffffff;
+  font-family: CenturyGothicB;
+  margin-top: 10px !important;
+}
+
+h2 {
+  color: #ffffff;
+  font-weight: normal;
+  font-style: normal;
+  font-family: CenturyGothicB;
+}
+
+p {
+  color: #ffffff;
+  font-family: CenturyGothic;
+}
+
+.section1 {
+  background-image: url("../Images/committees/IMG_0962.JPG");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  background-color: #111111;
+}
+.footer-text {
+  font-family: CenturyGothic;
+}
+@media only screen and (max-width: 800px) {
+  .shapes {
+    display: none;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .section1 {
+    height: 50wh;
+    background-image: url("../Images/committees/IMG_0962.JPG");
+  }
+  .footer-text {
+    font-size: 18px;
+    font-family: CenturyGothic;
+  }
+}
+.section2 {
+  margin-top: 50px;
+}
+#shape2 {
+  float: right;
+  margin-top: 0;
+}
+.titlediv {
+  border-radius: 50px;
+  width: auto;
+  border: 3px solid #fec223;
+  margin-top: 100px;
+}
+@font-face {
+  font-family: CenturyGothicB;
+  src: url(../Fonts/GOTHICB.TTF);
+}
+@font-face {
+  font-family: CenturyGothic;
+  src: url(../Fonts/GOTHIC.TTF);
+}
+#section2title {
+  font-family: CenturyGothicB;
+  color: #ffffff;
+  text-align: center;
+  font-size: 2.8vw;
+}
+.shapes {
+  width: 1ww;
+}
+.teamimg {
+  width: 100%;
+  margin-top: 130px;
+}
+.maintext {
+  font-family: CenturyGothic;
+  color: #ffffff;
+  text-align: center;
+  font-size: 100%;
+}
+
+.maintexttitle {
+  font-family: CenturyGothic;
+  color: #fec223;
+  text-align: center;
+  font-size: 2.5vw;
+}
+@media only screen and (max-width: 700px) {
+  .maintexttitle {
+    font-size: 3ww;
+  }
+}
+.shapeleft {
+  left: 0px;
+  position: absolute;
+}
+.shaperight {
+  right: 0px;
+  position: absolute;
+}
+.sec2 {
+  margin-top: 100px;
+}
+
+@media (max-width: 768px) {
+  .titlediv {
+    margin-bottom: 90px;
+  }
+  .teamimg {
+    margin-top: 0;
+  }
+  #section2title {
+    font-size: 5.8vw;
+  }
+  .maintexttitle {
+    font-size: 25px;
+  }
+  .navbar-collapse {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+#to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+  padding: 10px 15px;
+  background: #fec223;
+  font-weight: bold;
+  color: #000;
+  size: 20px;
+  display: none;
+  z-index: 100000;
+  border-radius: 25px;
+}
